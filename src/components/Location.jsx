@@ -7,7 +7,7 @@ const Location = ({location}) => {
       <div className='flex justify-center'>
         <h2 className='py-3 text-lg'><b>{location?.name}</b></h2>
       </div>
-      <ul className='flex gap-20 justify-center py-3'>
+      <ul className='grid gap-5 py-1 sm:flex gap-20 justify-center py-5'>
         <li><b>Type: </b>{location?.type}</li>
         <li><b>Dimension: </b>{location?.dimension}</li>
         <li><b>Population: </b>{location?.residents?.length}</li>

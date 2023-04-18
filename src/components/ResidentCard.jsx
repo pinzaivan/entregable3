@@ -27,17 +27,17 @@ const ResidentCard = ({resident}) => {
       </div>
     </div>
     <section>
-      <h3>{residentInfo?.name}</h3>
+      <h3><b>{residentInfo?.name}</b></h3>
       <ul>
         <li>
-          <span>Species</span>
+          <span><b>Species: </b></span>
           <span>{residentInfo?.species}</span>
         </li>
         <li>
-          <span>Origin</span>
+          <span><b>Origin: </b></span>
           <span>{residentInfo?.origin.name}</span>
         </li>        <li>
-          <span>Times appear</span>
+          <span><b>Times appear: </b></span>
           <span>{residentInfo?.episode.length}</span>
         </li>
       </ul>
