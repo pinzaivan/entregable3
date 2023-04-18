@@ -29,7 +29,7 @@ useEffect(()=>{
   return (
     <div className="App bg-[url('/images/background.png')] bg-cover text-white font-['Fira_Code']">
       
-      <div className= 'w-full grid place-content-center relative box-border'>
+      <div className= 'w-full grid place-content-center relative box-border overflow-hidden'>
         <img className='-translate-y-1/3 animate-[ping_8s_cubic-bezier(0,1,1,0)_infinite]' src="/images/Planet.png" alt="" />
         
         <img className='absolute bottom-30 self-center left-1/2 -translate-x-1/2 z-10' src="/images/nombre1.png" alt="" />
